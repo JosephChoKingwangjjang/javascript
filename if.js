@@ -20,9 +20,8 @@ if(userNumber !== null) {
 
 
 switch(userNumber) {
-    case "77" : alert("축하합니다 당신은 숨겨진 숫자를 찾아냈습니다")
+    case 77 : alert("축하합니다 당신은 숨겨진 숫자를 찾아냈습니다")
     break;
-    default : alert("괘씸한녀석 엉덩이로 이름쓰면서 돼지코로 운동장을 10바퀴 돌아라")
 }
 
 // 1.산술연산자
