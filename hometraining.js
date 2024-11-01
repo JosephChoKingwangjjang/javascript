@@ -1,15 +1,23 @@
-var passWord = prompt("암호를 입력하세요")
+var passWord
+var howMuch = 0;
 
-while(i < 6) {
-    sum += 1;
-    i++;
-}
+do {
+    passWord = prompt("암호를 입력하세요")
+    if (passWord !== null) {
+        if (passWord < 20090304) {
+            alert("작습니다")
+            howMuch++;
+        } else if (passWord > 20090304) {
+            alert ("큽니다")
+            howMuch++;
+        } else if (passWord = 20090304) {
+            break;
+        }
+    }
+} while(passWord !== 20090304)
 
-if (passWord !== null)
-    if(passWord === 20090304 ){
-        alert("암호를 해독하셨습니다")
-    } else if(passWord < 20090304) {
-        alert ("숫자가 작습니다")
-    } else if (passWord >20090304) {
-        alert ("숫자가 큽니다")
-}
+    if (passWord === 20090304) {
+        alert("맞췄습니다")
+        howMuch++;
+    }
+    document.write(howMuch + "번 시도하셨습니다.")
