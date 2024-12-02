@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #result {
+        }
+        #box {
+            height: 100px;
+            width: 100px;
+            background-color: lightpink;
+        }
+    </style>
 </head>
-<body>
-    <script src="function.js"></script>
+<body id="result">
+    <div onclick="changeBg('green')">green</div>
+    <div onclick="changeBg('orange')">orange</div>
+    <div onclick="changeBg('purple')">purple</div>
+    <div onclick="hide()">hide</div>
+    <div onclick="show()">show</div>
+    <script src = "event.js"></script>
+    <div id="box"></div>
 </body>
 </html>

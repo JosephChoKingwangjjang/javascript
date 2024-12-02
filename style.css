@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mainSubject {
+    height: 300PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.삼김Img {
+    width: 10%;
+}
+
+.forSubPadding {
+    padding: 30px;
+}
+.상세설명보기 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#상세설명 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

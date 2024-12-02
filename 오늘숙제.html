@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘숙제</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        #상세설명 {
+            height: 70%;
+            display: none;
+        }
+    </style>
+</head>
+<body id="result">
+    <div class="mainSubject">
+        <hi class="forSubPadding"><br>어...제가 설명해 드릴 것은 농협 고소 짭짤 반수계란버터간장 삼각김밥입니다. ^^</hi>
+        <img class="삼김Img" src="다운로드.jpeg">
+    </div>
+    <div onclick="videoClip()">
+        <h2 class="상세설명보기">상세 설명 보기</h2>
+    </div>
+    <div id="상세설명">
+        <video width="600" controls>
+            <source src="영상.mp4" type="video/mp4">
+        </video>
+    </div>
+    <script src = "event.js"></script>
+</body>
+</html>
